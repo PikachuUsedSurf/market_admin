@@ -32,7 +32,7 @@ class MarketResource extends Resource
                 Forms\Components\TextInput::make('name')
                     ->required()
                     ->maxLength(255),
-                Forms\Components\DateTimePicker::make('Fetch_data_from'),
+                Forms\Components\DatePicker::make('Fetch_data_from'),
             ]);
     }
 
