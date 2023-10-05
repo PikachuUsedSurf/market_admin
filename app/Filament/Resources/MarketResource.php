@@ -23,6 +23,8 @@ class MarketResource extends Resource
 
     protected static ?string $modelLabel = 'Market Data';
 
+    protected static ?string $navigationGroup = 'Market Data';
+
     protected static ?int $navigationSort = 1;
 
     public static function form(Form $form): Form
@@ -32,7 +34,7 @@ class MarketResource extends Resource
                 Forms\Components\TextInput::make('name')
                     ->required()
                     ->maxLength(255),
-                Forms\Components\DatePicker::make('Fetch_data_from'),
+                Forms\Components\DatePicker::make('fetch_data_from'),
             ]);
     }
 

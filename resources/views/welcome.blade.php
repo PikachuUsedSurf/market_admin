@@ -40,7 +40,7 @@
 
                 <div class="mt-16">
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
-                        <a href="https://laravel.com/docs" class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
+                        <a href="http://ets.tmx.co.tz/" class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
                             <div>
                                 <div class="h-16 w-16 bg-red-50 dark:bg-red-800/20 flex items-center justify-center rounded-full">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="w-7 h-7 stroke-red-500">
@@ -48,10 +48,11 @@
                                     </svg>
                                 </div>
 
-                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Documentation</h2>
+                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Electronic Trading System</h2>
 
                                 <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                                    Laravel has wonderful documentation covering every aspect of the framework. Whether you are a newcomer or have prior experience with Laravel, we recommend reading our documentation from beginning to end.
+
+                                    Electronic trading system is a computer-based system that allows buyers and sellers to trade financial instruments electronically. ETSs are used to trade a wide range of financial instruments, including stocks, bonds, currencies, commodities, and derivatives.
                                 </p>
                             </div>
 
@@ -60,7 +61,7 @@
                             </svg>
                         </a>
 
-                        <a href="https://laracasts.com" class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
+                        <a href="https://ots.tmx.co.tz/" class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
                             <div>
                                 <div class="h-16 w-16 bg-red-50 dark:bg-red-800/20 flex items-center justify-center rounded-full">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="w-7 h-7 stroke-red-500">
@@ -68,10 +69,10 @@
                                     </svg>
                                 </div>
 
-                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Laracasts</h2>
+                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Online Trading System</h2>
 
                                 <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                                    Laracasts offers thousands of video tutorials on Laravel, PHP, and JavaScript development. Check them out, see for yourself, and massively level up your development skills in the process.
+                                    Online Trading System is a secure and efficient platform that allows buyers and sellers of commodities to trade in a transparent and fair environment. The system is accessible to all market participants, including farmers, traders, exporters, and processors.
                                 </p>
                             </div>
 
@@ -80,7 +81,7 @@
                             </svg>
                         </a>
 
-                        <a href="https://laravel-news.com" class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
+                        <a href="http://tmx.co.tz/" class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
                             <div>
                                 <div class="h-16 w-16 bg-red-50 dark:bg-red-800/20 flex items-center justify-center rounded-full">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="w-7 h-7 stroke-red-500">
@@ -88,7 +89,7 @@
                                     </svg>
                                 </div>
 
-                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Laravel News</h2>
+                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">TMX Main Website</h2>
 
                                 <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
                                     Laravel News is a community driven portal and newsletter aggregating all of the latest and most important news in the Laravel ecosystem, including new package releases and tutorials.
@@ -99,22 +100,27 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
                             </svg>
                         </a>
-
-                        <div class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
+                        <a href="/admin" class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
                             <div>
                                 <div class="h-16 w-16 bg-red-50 dark:bg-red-800/20 flex items-center justify-center rounded-full">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="w-7 h-7 stroke-red-500">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M6.115 5.19l.319 1.913A6 6 0 008.11 10.36L9.75 12l-.387.775c-.217.433-.132.956.21 1.298l1.348 1.348c.21.21.329.497.329.795v1.089c0 .426.24.815.622 1.006l.153.076c.433.217.956.132 1.298-.21l.723-.723a8.7 8.7 0 002.288-4.042 1.087 1.087 0 00-.358-1.099l-1.33-1.108c-.251-.21-.582-.299-.905-.245l-1.17.195a1.125 1.125 0 01-.98-.314l-.295-.295a1.125 1.125 0 010-1.591l.13-.132a1.125 1.125 0 011.3-.21l.603.302a.809.809 0 001.086-1.086L14.25 7.5l1.256-.837a4.5 4.5 0 001.528-1.732l.146-.292M6.115 5.19A9 9 0 1017.18 4.64M6.115 5.19A8.965 8.965 0 0112 3c1.929 0 3.716.607 5.18 1.64" />
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 7.5h1.5m-1.5 3h1.5m-7.5 3h7.5m-7.5 3h7.5m3-9h3.375c.621 0 1.125.504 1.125 1.125V18a2.25 2.25 0 01-2.25 2.25M16.5 7.5V18a2.25 2.25 0 002.25 2.25M16.5 7.5V4.875c0-.621-.504-1.125-1.125-1.125H4.125C3.504 3.75 3 4.254 3 4.875V18a2.25 2.25 0 002.25 2.25h13.5M6 7.5h3v3H6v-3z" />
                                     </svg>
                                 </div>
 
-                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Vibrant Ecosystem</h2>
+                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Admin Panel</h2>
 
                                 <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                                    Laravel's robust library of first-party tools and libraries, such as <a href="https://forge.laravel.com" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Forge</a>, <a href="https://vapor.laravel.com" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Vapor</a>, <a href="https://nova.laravel.com" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Nova</a>, and <a href="https://envoyer.io" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Envoyer</a> help you take your projects to the next level. Pair them with powerful open source libraries like <a href="https://laravel.com/docs/billing" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Cashier</a>, <a href="https://laravel.com/docs/dusk" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Dusk</a>, <a href="https://laravel.com/docs/broadcasting" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Echo</a>, <a href="https://laravel.com/docs/horizon" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Horizon</a>, <a href="https://laravel.com/docs/sanctum" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Sanctum</a>, <a href="https://laravel.com/docs/telescope" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Telescope</a>, and more.
+
+                                    An admin panel is a web-based interface that allows administrators to manage a website or web application. Admin panels typically provide access to a variety of features
                                 </p>
                             </div>
-                        </div>
+
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="self-center shrink-0 stroke-red-500 w-6 h-6 mx-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
+                            </svg>
+                        </a>
+
                     </div>
                 </div>
 
@@ -125,13 +131,32 @@
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="-mt-px mr-1 w-5 h-5 stroke-gray-400 dark:stroke-gray-600 group-hover:stroke-gray-600 dark:group-hover:stroke-gray-400">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
                                 </svg>
-                                Sponsor
+                                MADE BY TMX ICT DEPARTMENT
                             </a>
                         </div>
                     </div>
 
-                    <div class="ml-4 text-center text-sm text-gray-500 dark:text-gray-400 sm:text-right sm:ml-0">
-                        Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})
+                    <div class="flex ml-4 text-center text-sm text-gray-500 dark:text-gray-400 sm:text-right sm:ml-0">
+                        <a href="https://www.facebook.com/tmxtz1/">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" class="self-center shrink-0 stroke-red-500 w-6 h-6 mx-6" viewBox="0,0,256,256">
+                                <g fill="#db4143" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M25,3c-12.13844,0 -22,9.86156 -22,22c0,11.01913 8.12753,20.13835 18.71289,21.72852l1.14844,0.17383v-17.33594h-5.19727v-3.51953h5.19727v-4.67383c0,-2.87808 0.69065,-4.77363 1.83398,-5.96289c1.14334,-1.18926 2.83269,-1.78906 5.18359,-1.78906c1.87981,0 2.61112,0.1139 3.30664,0.19922v2.88086h-2.44727c-1.38858,0 -2.52783,0.77473 -3.11914,1.80664c-0.59131,1.03191 -0.77539,2.264 -0.77539,3.51953v4.01758h6.12305l-0.54492,3.51953h-5.57812v17.36523l1.13477,-0.1543c10.73582,-1.45602 19.02148,-10.64855 19.02148,-21.77539c0,-12.13844 -9.86156,-22 -22,-22zM25,5c11.05756,0 20,8.94244 20,20c0,9.72979 -6.9642,17.7318 -16.15625,19.5332v-12.96875h5.29297l1.16211,-7.51953h-6.45508v-2.01758c0,-1.03747 0.18982,-1.96705 0.50977,-2.52539c0.31994,-0.55834 0.62835,-0.80078 1.38477,-0.80078h4.44727v-6.69141l-0.86719,-0.11719c-0.59979,-0.08116 -1.96916,-0.27148 -4.43945,-0.27148c-2.7031,0 -5.02334,0.73635 -6.625,2.40234c-1.60166,1.66599 -2.39258,4.14669 -2.39258,7.34961v2.67383h-5.19727v7.51953h5.19727v12.9043c-9.04433,-1.91589 -15.86133,-9.84626 -15.86133,-19.4707c0,-11.05756 8.94244,-20 20,-20z"></path></g></g>
+                            </svg>
+                        </a>
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" class="self-center shrink-0 stroke-red-500 w-6 h-6 mx-6" viewBox="0,0,256,256">
+                                <g transform=""><g fill="#db4143" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(4,4)"><path d="M22.18164,10c-7.26751,0 -13.18164,5.91413 -13.18164,13.18164v19.63672c0,7.26751 5.91413,13.18164 13.18164,13.18164h19.63672c7.26751,0 13.18164,-5.91413 13.18164,-13.18164v-19.63672c0.0051,-0.36064 -0.18438,-0.69608 -0.49587,-0.87789c-0.3115,-0.18181 -0.69676,-0.18181 -1.00825,0c-0.3115,0.18181 -0.50097,0.51725 -0.49587,0.87789v19.63672c0,6.18649 -4.99515,11.18164 -11.18164,11.18164h-19.63672c-6.18649,0 -11.18164,-4.99515 -11.18164,-11.18164v-19.63672c0,-6.18649 4.99515,-11.18164 11.18164,-11.18164h19.63672c3.001,0 5.55118,1.69356 6.48242,3.65039c0.46562,0.97841 0.55758,1.98981 0.17969,3.00977c-0.2147,0.57948 -0.65539,1.16959 -1.25,1.75391c-0.57693,-1.19865 -1.30511,-2.20169 -2.24023,-2.74414c-1.45955,-0.84666 -3.26516,-0.82278 -4.45508,0.27539c-0.01823,0.01692 -0.03582,0.03451 -0.05273,0.05273c-0.71192,0.76143 -1.01865,1.74141 -0.92969,2.64844c0.08897,0.90703 0.53284,1.7327 1.19336,2.35938c1.23796,1.17453 3.31685,1.57774 5.36914,0.60547c1.70206,12.37759 -6.38042,19.38867 -14.11523,19.38867c-3.76841,0 -5.89006,-1.5571 -7.22266,-3.4707c-1.33259,-1.91361 -1.77734,-4.27508 -1.77734,-5.5293c0,-1.38658 0.46942,-3.71301 1.8125,-5.58594c1.34308,-1.87293 3.47703,-3.37918 7.19727,-3.41406c4.07121,-0.03836 6.34094,2.51191 6.95313,5.4043c0.61219,2.89239 -0.48648,5.95991 -3.64844,7.125c-0.51831,0.19093 -0.7837,0.76587 -0.59277,1.28418c0.19093,0.51831 0.76587,0.7837 1.28418,0.59277c4.11405,-1.51591 5.69562,-5.7234 4.91406,-9.41602c-0.78156,-3.69261 -3.9799,-7.03687 -8.92969,-6.99023c-4.27977,0.04012 -7.14582,1.93748 -8.80273,4.24805c-1.65692,2.31057 -2.1875,4.94753 -2.1875,6.75195c0,1.68178 0.49661,4.31948 2.13477,6.67188c1.63816,2.35239 4.51664,4.32813 8.86523,4.32813c9.12535,0 18.32116,-8.60442 16.03906,-22.39648c-0.01621,-0.09811 -0.07293,-0.15426 -0.0918,-0.25c1.11479,-0.91292 2.00199,-1.90362 2.4082,-3c0.57248,-1.54514 0.41338,-3.16854 -0.25,-4.5625c-1.32675,-2.78792 -4.55411,-4.79102 -8.28711,-4.79102zM42.79102,19.05664c0.35675,-0.01247 0.76146,0.09208 1.19531,0.34375c0.62807,0.36433 1.19423,1.18897 1.62109,2.26367c-0.02941,0.01715 -0.04039,0.03565 -0.07031,0.05273c-0.00065,0 -0.0013,0 -0.00195,0c-1.52287,0.86974 -2.7179,0.49653 -3.41211,-0.16211c-0.34711,-0.32932 -0.54389,-0.73454 -0.58008,-1.10352c-0.03496,-0.35638 0.06408,-0.6893 0.38672,-1.05078c0.23078,-0.2002 0.52006,-0.33182 0.86133,-0.34375z"></path></g></g></g>
+                            </svg>
+                        </a>
+                        <a href="https://www.youtube.com/@tmx_tz">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" class="self-center shrink-0 stroke-red-500 w-6 h-6 mx-6" viewBox="0 0 50 50">
+                                <path d="M 24.402344 9 C 17.800781 9 11.601563 9.5 8.300781 10.199219 C 6.101563 10.699219 4.199219 12.199219 3.800781 14.5 C 3.402344 16.898438 3 20.5 3 25 C 3 29.5 3.398438 33 3.898438 35.5 C 4.300781 37.699219 6.199219 39.300781 8.398438 39.800781 C 11.902344 40.5 17.898438 41 24.5 41 C 31.101563 41 37.097656 40.5 40.597656 39.800781 C 42.800781 39.300781 44.699219 37.800781 45.097656 35.5 C 45.5 33 46 29.402344 46.097656 24.902344 C 46.097656 20.402344 45.597656 16.800781 45.097656 14.300781 C 44.699219 12.101563 42.800781 10.5 40.597656 10 C 37.097656 9.5 31 9 24.402344 9 Z M 24.402344 11 C 31.601563 11 37.398438 11.597656 40.199219 12.097656 C 41.699219 12.5 42.898438 13.5 43.097656 14.800781 C 43.699219 18 44.097656 21.402344 44.097656 24.902344 C 44 29.199219 43.5 32.699219 43.097656 35.199219 C 42.800781 37.097656 40.800781 37.699219 40.199219 37.902344 C 36.597656 38.601563 30.597656 39.097656 24.597656 39.097656 C 18.597656 39.097656 12.5 38.699219 9 37.902344 C 7.5 37.5 6.300781 36.5 6.101563 35.199219 C 5.300781 32.398438 5 28.699219 5 25 C 5 20.398438 5.402344 17 5.800781 14.902344 C 6.101563 13 8.199219 12.398438 8.699219 12.199219 C 12 11.5 18.101563 11 24.402344 11 Z M 19 17 L 19 33 L 33 25 Z M 21 20.402344 L 29 25 L 21 29.597656 Z"></path>
+                            </svg>
+                        </a>
+                        <a href="https://twitter.com/tmx_tz">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" class="self-center shrink-0 stroke-red-500 w-6 h-6 mx-6" viewBox="0 0 64 64">
+                                <path d="M 42.037109 9.7753906 C 41.475199 9.7670072 40.912012 9.8029211 40.355469 9.8847656 C 38.006516 10.2302 35.750598 11.390238 34.175781 13.4375 C 32.600965 15.484762 31.738451 18.381285 32.001953 22.070312 A 1.0005207 1.0005207 0 1 0 33.998047 21.929688 C 33.761549 18.618714 34.524035 16.265238 35.761719 14.65625 C 36.999402 13.047262 38.743484 12.1448 40.644531 11.865234 C 44.446625 11.306103 48.719436 13.322371 50.050781 17.316406 A 1.0001 1.0001 0 0 0 51 18 L 55.130859 18 L 52.167969 22.445312 A 1.0001 1.0001 0 0 0 52 23 C 52 32.333333 49.679359 38.771548 46.199219 43.177734 C 42.719078 47.583921 38.041237 50.004192 33.146484 51.152344 C 28.251732 52.300496 23.153222 52.150999 19.003906 51.40625 C 16.1033 50.885628 13.991664 50.047587 12.466797 49.261719 C 14.749222 48.659049 19.593451 47.255493 24.806641 43.794922 C 27.977986 44.556995 30.303155 44.506669 31.910156 43.847656 C 33.582674 43.16178 34.475911 41.744311 34.423828 40.394531 C 34.371748 39.044752 33.433321 37.802852 32.025391 37.451172 C 30.61746 37.099492 28.912318 37.664752 27.291016 39.294922 C 26.431487 40.159142 25.292581 40.818096 24.242188 41.550781 C 17.648179 39.656909 14.096136 36.116199 12.195312 32.957031 C 10.909434 30.819899 10.469032 29.24176 10.246094 28.166016 C 11.063617 28.261996 11.970902 28.364017 14.025391 28.646484 C 14.066951 28.718714 14.098601 28.813855 14.140625 28.884766 C 16.249659 32.44376 18.835743 34.333269 20.683594 34.949219 C 21.702387 35.288817 22.741527 35.113529 23.515625 34.626953 C 24.289723 34.140377 24.827747 33.384723 25.082031 32.537109 C 25.336315 31.689495 25.301313 30.71562 24.828125 29.859375 C 24.354937 29.00313 23.451434 28.331608 22.242188 28.029297 C 20.470447 27.586362 17.796945 27.190814 15.361328 26.841797 C 13.970431 24.13327 12.980267 20.424218 12.984375 15.544922 C 15.622904 18.667091 19.04611 21.679941 23.183594 23.767578 C 28.211939 26.304715 33.957324 27.555967 39.287109 25.957031 A 1.0001 1.0001 0 1 0 38.712891 24.042969 C 34.042676 25.444033 28.799639 24.361785 24.083984 21.982422 C 19.36833 19.603059 15.218658 15.930933 12.824219 12.435547 A 1.0001 1.0001 0 0 0 11.001953 12.929688 C 10.592408 18.663313 11.517856 23.097248 12.972656 26.484375 C 11.091111 26.244874 9.1113281 26.005859 9.1113281 26.005859 A 1.0001 1.0001 0 0 0 8.0039062 27.083984 C 8.0039062 27.083984 8.280278 30.328319 10.482422 33.988281 C 12.452186 37.262029 16.154512 40.839949 22.320312 42.972656 C 16.501479 46.368175 9.7734375 48.025391 9.7734375 48.025391 A 1.0001 1.0001 0 0 0 9.2929688 49.707031 C 10.908307 51.32237 14.270409 52.588499 18.652344 53.375 C 23.034278 54.161501 28.373268 54.324504 33.603516 53.097656 C 38.833763 51.870808 43.968422 49.228579 47.769531 44.416016 C 51.523337 39.663344 53.918954 32.815313 53.978516 23.335938 L 57.832031 17.554688 A 1.0001 1.0001 0 0 0 57 16 L 51.560547 16 C 49.877524 12.068929 45.970484 9.8340746 42.037109 9.7753906 z M 16.912109 29.140625 C 18.664081 29.415615 20.583904 29.677226 21.757812 29.970703 C 22.548566 30.168392 22.895063 30.49687 23.078125 30.828125 C 23.261187 31.15938 23.288689 31.560505 23.167969 31.962891 C 23.047253 32.365277 22.772777 32.734623 22.453125 32.935547 C 22.133473 33.136471 21.797613 33.211183 21.316406 33.050781 C 20.365853 32.73393 18.577848 31.326046 16.912109 29.140625 z M 31.046875 39.353516 C 31.236309 39.339229 31.400374 39.355982 31.539062 39.390625 C 32.09382 39.529195 32.404661 39.973983 32.423828 40.470703 C 32.442998 40.967423 32.228639 41.556673 31.152344 41.998047 C 30.369054 42.319263 28.900291 42.349044 27.064453 42.113281 C 27.623484 41.652406 28.205048 41.211766 28.708984 40.705078 C 29.687133 39.721581 30.478574 39.396376 31.046875 39.353516 z"></path>
+                            </svg>
+                        </a>
                     </div>
                 </div>
             </div>

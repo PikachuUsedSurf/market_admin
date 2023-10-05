@@ -14,6 +14,7 @@ return new class extends Migration
         Schema::create('markets', function (Blueprint $table) {
             $table->id();
             $table->string('name');
+            $table->timestamp('fetch_data_from')->nullable();
             $table->timestamps();
         });
     }
