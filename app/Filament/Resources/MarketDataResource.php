@@ -2,53 +2,32 @@
 
 namespace App\Filament\Resources;
 
-use App\Filament\Resources\MarketResource\Pages;
-use App\Filament\Resources\MarketResource\RelationManagers;
-use App\Models\Market;
+use App\Filament\Resources\MarketDataResource\Pages;
+use App\Filament\Resources\MarketDataResource\RelationManagers;
+use App\Models\MarketData;
 use Filament\Forms;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
-use Illuminate\Support\HtmlString;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
 
-class MarketResource extends Resource
+class MarketDataResource extends Resource
 {
-    protected static ?string $model = Market::class;
+    protected static ?string $model = MarketData::class;
 
-    protected static ?string $navigationIcon = 'heroicon-o-document-chart-bar';
-
-    protected static ?string $navigationLabel = 'Market Data';
-
-    protected static ?string $modelLabel = 'Market Data';
-
-    protected static ?string $navigationGroup = 'Market Data';
-
-    protected static ?int $navigationSort = 1;
+    protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
 
     public static function form(Form $form): Form
     {
         return $form
             ->schema([
-                Forms\Components\Wizard::make([
-                    Forms\Components\Wizard\Step::make('Data Name')
-                    ->schema([
-                        Forms\Components\TextInput::make('Name')
-                        ->required()
-                        ->maxLength(255),
-                    ]),
-                    Forms\Components\Wizard\Step::make('Fetch Market Data')
-                        ->schema([
-                            Forms\Components\DatePicker::make('fetch_data_from')
-                    ]),
-                    Forms\Components\Wizard\Step::make('Edit Market Data')
-                    ->schema([
-                        Forms\Components\TextInput::make('text')
-                    ])
-                ])->submitAction(new HtmlString('<button type="submit">Submit</button>')),
-
+                Forms\Components\TextInput::make('name')
+                    ->required()
+                    ->maxLength(255),
+                Forms\Components\DatePicker::make('auction_day')
+                    ->required(),
             ]);
     }
 
@@ -58,6 +37,9 @@ class MarketResource extends Resource
             ->columns([
                 Tables\Columns\TextColumn::make('name')
                     ->searchable(),
+                Tables\Columns\TextColumn::make('auction_day')
+                    ->date()
+                    ->sortable(),
                 Tables\Columns\TextColumn::make('created_at')
                     ->dateTime()
                     ->sortable()
@@ -93,9 +75,9 @@ class MarketResource extends Resource
     public static function getPages(): array
     {
         return [
-            'index' => Pages\ListMarkets::route('/'),
-            'create' => Pages\CreateMarket::route('/create'),
-            'edit' => Pages\EditMarket::route('/{record}/edit'),
+            'index' => Pages\ListMarketData::route('/'),
+            'create' => Pages\CreateMarketData::route('/create'),
+            'edit' => Pages\EditMarketData::route('/{record}/edit'),
         ];
     }
 }
