@@ -10,6 +10,7 @@ use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
+use Illuminate\Support\HtmlString;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
 
@@ -31,10 +32,23 @@ class MarketResource extends Resource
     {
         return $form
             ->schema([
-                Forms\Components\TextInput::make('name')
-                    ->required()
-                    ->maxLength(255),
-                Forms\Components\DatePicker::make('fetch_data_from'),
+                Forms\Components\Wizard::make([
+                    Forms\Components\Wizard\Step::make('Data Name')
+                    ->schema([
+                        Forms\Components\TextInput::make('Name')
+                        ->required()
+                        ->maxLength(255),
+                    ]),
+                    Forms\Components\Wizard\Step::make('Fetch Market Data')
+                        ->schema([
+                            Forms\Components\DatePicker::make('fetch_data_from')
+                    ]),
+                    Forms\Components\Wizard\Step::make('Edit Market Data')
+                    ->schema([
+                        Forms\Components\TextInput::make('text')
+                    ])
+                ])->submitAction(new HtmlString('<button type="submit">Submit</button>')),
+
             ]);
     }
 
