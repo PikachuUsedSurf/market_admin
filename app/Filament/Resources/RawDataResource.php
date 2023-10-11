@@ -23,9 +23,6 @@ class RawDataResource extends Resource
     {
         return $form
             ->schema([
-                Forms\Components\TextInput::make('market_data_id')
-                    ->required()
-                    ->numeric(),
                 Forms\Components\TextInput::make('name')
                     ->required()
                     ->maxLength(255),
@@ -47,9 +44,6 @@ class RawDataResource extends Resource
     {
         return $table
             ->columns([
-                Tables\Columns\TextColumn::make('market_data_id')
-                    ->numeric()
-                    ->sortable(),
                 Tables\Columns\TextColumn::make('name')
                     ->searchable(),
                 Tables\Columns\TextColumn::make('type')
