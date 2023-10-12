@@ -17,7 +17,14 @@ class MarketDataResource extends Resource
 {
     protected static ?string $model = MarketData::class;
 
-    protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    public function relationship()
+    {
+        return $this->rawData();
+    }
+
+    protected static ?string $navigationIcon = 'heroicon-o-document';
+
+    protected static ?string $navigationGroup = 'Market Management';
 
     public static function form(Form $form): Form
     {
@@ -54,6 +61,7 @@ class MarketDataResource extends Resource
             ])
             ->actions([
                 Tables\Actions\EditAction::make(),
+                Tables\Actions\DeleteAction::make(),
             ])
             ->bulkActions([
                 Tables\Actions\BulkActionGroup::make([
