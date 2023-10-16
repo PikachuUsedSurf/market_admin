@@ -1,7 +1,12 @@
 <div>
     <div class="bg-slate-700">
         <div>
-            <h1>Tittle</h1>
+            @foreach($market as $market)
+            <h1>{{$market->title}}</h1>
+            <h1>{{$market->updated_at}}</h1>
+            @endforeach
+            @foreach($raw as $rawdata)
+
             <table>
                 <tr>
                     <th>Name</th>
@@ -10,18 +15,17 @@
                     <th>Region</th>
                     <th>Auction Day</th>
                 </tr>
-                @foreach($market as $market)
                 <tr>
-                    <td>{{$market->name}}</td>
-                    <td>{{$market->type}}</td>
-                    <td>{{$market->kg}}</td>
-                    <td>{{$market->region}}</td>
+                    <td>{{$rawdata->name}}</td>
+                    <td>{{$rawdata->type}}</td>
+                    <td>{{$rawdata->kg}}</td>
+                    <td>{{$rawdata->region}}</td>
                     <td>{{$market->auction_day}}</td>
 
                 </tr>
-                @endforeach
-            </table>
 
+            </table>
+            @endforeach
 
             <style>
                 table {

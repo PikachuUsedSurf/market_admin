@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 class RawData extends Model
 {
@@ -18,8 +19,8 @@ class RawData extends Model
             'auction_day'
         ];
 
-    public function MarketData()
+    public function MarketData(): BelongsTo
     {
-        return $this->belongsTo(MarketData::class);
+        return $this->belongsTo(MarketData::class, 'auction_day', 'auction_day');
     }
 }
