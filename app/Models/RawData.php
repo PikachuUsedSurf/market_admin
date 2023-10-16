@@ -17,4 +17,9 @@ class RawData extends Model
             'region',
             'auction_day'
         ];
+
+    public function MarketData()
+    {
+        return $this->belongsTo(MarketData::class);
+    }
 }

@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('market_data', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
+            $table->string('title');
             $table->date('auction_day');
             $table->timestamps();
         });
