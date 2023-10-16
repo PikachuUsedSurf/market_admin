@@ -9,11 +9,14 @@ class MarketData extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['name', 'auction_day'];
+    protected $fillable = [
+        'name',
+        'auction_day'
+    ];
 
-    public function rawData()
+    public function RawData()
     {
-        return $this->hasMany(RawData::class, 'auction_day', 'auction_day');
+        return $this->hasMany(RawData::class);
     }
 }
 

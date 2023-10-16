@@ -9,5 +9,12 @@ class RawData extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['market_data_id','name','type','kg','region','auction_day'];
+    protected $fillable = [
+            'market_data_id',
+            'name',
+            'type',
+            'kg',
+            'region',
+            'auction_day'
+        ];
 }
