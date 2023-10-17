@@ -12,11 +12,10 @@ class MarketDataController extends Controller
 {
     public function market(){
 
-        $raw = RawData::all();
+        //$raw = RawData::all();
         //dd($raw);
         $market = MarketData::all();
         //dd($market);
-        return view('home', ['market' => $market, 'raw' => $raw]);
-
+        return view('home', compact('market'));
     }
 }

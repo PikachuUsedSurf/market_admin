@@ -17,7 +17,8 @@ class MarketData extends Model
 
     public function RawData(): hasMany
     {
-        return $this->hasMany(RawData::class, 'auction_day', 'auction_day');
+        return $this->hasMany(RawData::class);
+        //return $this->hasMany(RawData::class, 'auction_day', 'auction_day');
     }
 }
 

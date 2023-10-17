@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('raw_data', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('market_data_id')->constrained('market_id')->cascadeOnDelete();
             $table->string('name');
             $table->string('type');
             $table->string('kg');

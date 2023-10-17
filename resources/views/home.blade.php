@@ -26,7 +26,7 @@
 
             </table>
             @endforeach
-
+            <button><a href="/">back</a></button>
             <style>
                 table {
                     border-collapse: collapse;
@@ -44,6 +44,10 @@
 
                 td {
                     text-align: center;
+                }
+
+                button{
+                    margin: 10px;
                 }
 
             </style>
