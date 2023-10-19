@@ -21,6 +21,6 @@ class RawData extends Model
 
     public function MarketData(): BelongsTo
     {
-        return $this->belongsTo(MarketData::class, 'auction_day', 'auction_day');
+        return $this->belongsTo(MarketData::class);
     }
 }

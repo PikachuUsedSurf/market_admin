@@ -3,9 +3,7 @@
         <div>
             @foreach($market as $market)
             <h1>{{$market->title}}</h1>
-            <h1>{{$market->updated_at}}</h1>
-            @endforeach
-            @foreach($raw as $rawdata)
+            <h1>{{$market->auction_day}}</h1>
 
             <table>
                 <tr>
@@ -16,11 +14,11 @@
                     <th>Auction Day</th>
                 </tr>
                 <tr>
-                    <td>{{$rawdata->name}}</td>
-                    <td>{{$rawdata->type}}</td>
-                    <td>{{$rawdata->kg}}</td>
-                    <td>{{$rawdata->region}}</td>
-                    <td>{{$market->auction_day}}</td>
+                    <td>{{$market->RawData->name}}</td>
+                    <td>{{$market->RawData->type}}</td>
+                    <td>{{$market->RawData->kg}}</td>
+                    <td>{{$market->RawData->region}}</td>
+                    <td>{{$market->RawData->auction_day}}</td>
 
                 </tr>
 
