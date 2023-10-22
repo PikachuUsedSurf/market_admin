@@ -27,6 +27,11 @@ class RawDataResource extends Resource
     {
         return $form
             ->schema([
+                Forms\Components\Select::make('market_data_id')
+                    ->relationship(name:'MarketData',titleAttribute: 'id')
+                    ->searchable()
+                    ->preload()
+                    ->required(),
                 Forms\Components\TextInput::make('name')
                     ->required()
                     ->maxLength(255),

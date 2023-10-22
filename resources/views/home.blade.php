@@ -15,10 +15,10 @@
                 </tr>
                 <tr>
                     <td>{{$market->RawData->name}}</td>
-                    <td>{{$market->RawData->type}}</td>
-                    <td>{{$market->RawData->kg}}</td>
-                    <td>{{$market->RawData->region}}</td>
-                    <td>{{$market->RawData->auction_day}}</td>
+                    <td>{{$market->type}}</td>
+                    <td>{{$market->kg}}</td>
+                    <td>{{$market->region}}</td>
+                    <td>{{$market->auction_day}}</td>
 
                 </tr>
 
