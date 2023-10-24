@@ -16,7 +16,7 @@ class MarketDataController extends Controller
         //dd($raw);
         //$market = MarketData::all();
         $market = MarketData::with('RawData')->get();
-        dd($market);
+        //dd($market);
 
         return view('home', compact('market'));
     }

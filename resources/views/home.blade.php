@@ -14,7 +14,7 @@
                     <th>Auction Day</th>
                 </tr>
                 <tr>
-                    <td>{{$market->RawData->name}}</td>
+                    <td>{{$market->RawData['name'] ?? ''}}</td>
                     <td>{{$market->type}}</td>
                     <td>{{$market->kg}}</td>
                     <td>{{$market->region}}</td>
