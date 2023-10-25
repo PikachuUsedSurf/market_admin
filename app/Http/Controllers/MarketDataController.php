@@ -19,5 +19,7 @@ class MarketDataController extends Controller
         //dd($market);
 
         return view('home', compact('market'));
+
+
     }
 }

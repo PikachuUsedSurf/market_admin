@@ -1,54 +1,87 @@
-<div>
-    <div class="bg-slate-700">
-        <div>
-            @foreach($market as $market)
-            <h1>{{$market->title}}</h1>
-            <h1>{{$market->auction_day}}</h1>
+<?php
+// Connect to the database
+$db = new PDO('mysql:host=localhost;dbname=marketdatadb', 'root', 'Gluck@1010');
 
-            <table>
-                <tr>
-                    <th>Name</th>
-                    <th>Type</th>
-                    <th>Kg</th>
-                    <th>Region</th>
-                    <th>Auction Day</th>
-                </tr>
-                <tr>
-                    <td>{{$market->RawData['name'] ?? ''}}</td>
-                    <td>{{$market->type}}</td>
-                    <td>{{$market->kg}}</td>
-                    <td>{{$market->region}}</td>
-                    <td>{{$market->auction_day}}</td>
+// Prepare the SQL query
+$sql = 'SELECT market_data.title, market_data.auction_day, raw_data.name, raw_data.type, raw_data.kg, raw_data.region FROM market_data JOIN raw_data ON market_data.auction_day = raw_data.auction_day';
 
-                </tr>
+// Execute the query
+$stmt = $db->prepare($sql);
+$stmt->execute();
 
-            </table>
-            @endforeach
-            <button><a href="/">back</a></button>
-            <style>
-                table {
-                    border-collapse: collapse;
-                    width: 100%;
-                }
+// Fetch the results
+$results = $stmt->fetchAll();
 
-                th, td {
-                    border: 1px solid black;
-                    padding: 5px;
-                }
+// Close the database connection
+$db = null;
 
-                th {
-                    background-color: #ccc;
-                }
+// Create an array to store the data for each auction day
+$auction_day_data = [];
 
-                td {
-                    text-align: center;
-                }
+// Iterate over the results and group the data by auction day
+foreach ($results as $row) {
+    $auction_day = $row['auction_day'];
 
-                button{
-                    margin: 10px;
-                }
+    if (!isset($auction_day_data[$auction_day])) {
+        $auction_day_data[$auction_day] = [];
+    }
 
-            </style>
-        </div>
-    </div>
-</div>
+    $auction_day_data[$auction_day][] = $row;
+}
+
+// Iterate over the auction day data and display it
+foreach ($auction_day_data as $auction_day => $rows) {
+    echo '<h1>' . $auction_day . '</h1>';
+
+    echo '<table>';
+    echo '<thead>';
+    echo '<tr>';
+    echo '<th>Name</th>';
+    echo '<th>type</th>';
+    echo '<th>Kg</th>';
+    echo '<th>Region</th>';
+    echo '<th>auction day</th>';
+    echo '</tr>';
+    echo '</thead>';
+    echo '<tbody>';
+
+    foreach ($rows as $row) {
+        echo '<tr>';
+        echo '<td>' . $row['name'] . '</td>';
+        echo '<td>' . $row['type'] . '</td>';
+        echo '<td>' . $row['kg'] . '</td>';
+        echo '<td>' . $row['region'] . '</td>';
+        echo '<td>' . $row['auction_day'] . '</td>';
+        echo '</tr>';
+    }
+
+    echo '</tbody>';
+    echo '</table>';
+}
+
+?>
+
+<style>
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    th, td {
+        border: 1px solid black;
+        padding: 5px;
+    }
+
+    th {
+        background-color: #ccc;
+    }
+
+    td {
+        text-align: center;
+    }
+
+    button{
+        margin: 10px;
+    }
+
+</style>
