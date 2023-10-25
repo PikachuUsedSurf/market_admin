@@ -31,7 +31,7 @@ foreach ($results as $row) {
 
 // Iterate over the auction day data and display it
 foreach ($auction_day_data as $auction_day => $rows) {
-    echo '<h1>' . $auction_day . '</h1>';
+    echo '<h1>' . $auction_day . ' - ' . $rows[0]['title'] . '</h1>';
 
     echo '<table>';
     echo '<thead>';
