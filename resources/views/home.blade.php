@@ -61,6 +61,35 @@ foreach ($auction_day_data as $auction_day => $rows) {
 
 ?>
 
+
+<?php
+
+$firstName = 'Denis';
+$lastName = 'Ruvelian';
+
+// Get the initials of the name
+$initials = substr($firstName, 0, 1) . '.' . substr($lastName, 0, 1);
+
+echo $initials;
+
+?>
+<!--Gets the initial of a single name based on the space bar delimiter-->
+<?php
+function getInitials($name) {
+    $initials = '';
+    $words = explode(' ', $name);
+    foreach ($words as $word) {
+        $initials .= $word[0];
+    }
+    return $initials;
+}
+
+$name = 'Denis Revelian Son Of God';
+$initials = getInitials($name);
+
+echo $initials;
+?>
+
 <style>
     table {
         border-collapse: collapse;
