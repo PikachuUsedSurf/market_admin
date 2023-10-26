@@ -84,7 +84,7 @@ function getInitials($name) {
     return $initials;
 }
 
-$name = 'Denis Revelian Son Of God';
+$name = 'VISION TEA BROKERS LIMITED';
 $initials = getInitials($name);
 
 echo $initials;
