@@ -75,7 +75,8 @@ echo $initials;
 ?>
 <!--Gets the initial of a single name based on the space bar delimiter-->
 <?php
-function getInitials($name) {
+function getInitials($name): string
+{
     $initials = '';
     $words = explode(' ', $name);
     foreach ($words as $word) {
